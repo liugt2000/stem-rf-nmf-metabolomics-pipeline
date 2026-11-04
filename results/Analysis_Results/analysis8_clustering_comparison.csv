@@ -1,0 +1,6 @@
+﻿Method,ARI_with_NMF,Silhouette,Subtype_sizes
+NMF,1.000,0.072,"{'0': 59, '1': 25}"
+K-Means,0.471,0.086,"{'0': 46, '1': 38}"
+Hierarchical (Ward),0.647,0.085,"{'0': 29, '1': 55}"
+Hierarchical (Average),-0.026,0.340,"{'0': 2, '1': 82}"
+Spectral,0.648,0.078,"{'0': 53, '1': 31}"
