@@ -1,0 +1,6 @@
+﻿Classifier,Accuracy,Std,Macro_F1,CG,SCD,MCI,AD
+Random Forest,48.8%,13.1%,0.389,6%,28%,50%,78%
+SVM (RBF),49.8%,10.1%,0.346,0%,15%,50%,93%
+Gradient Boosting,53.1%,14.1%,0.548,78%,30%,35%,77%
+Logistic Regression,24.8%,15.3%,0.264,18%,18%,44%,17%
+k-NN (k=5),43.6%,14.3%,0.449,64%,39%,53%,32%
