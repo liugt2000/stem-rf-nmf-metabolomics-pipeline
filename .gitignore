@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Raw / restricted data (must NOT be uploaded)
+data/raw/
+*.xls
+*.xlsx
+
+# Secrets
+*.env
+.env
+*.pem
+*.key
+*token*
