@@ -1,0 +1,5 @@
+﻿Strategy,Accuracy,Std,N_features,Stability,Macro_F1,AD_sens,CG_sens
+All features (1966),48.8%,13.1%,1966,1.000,0.389,78%,6%
+Univariate ANOVA (top 500),46.0%,13.3%,500,0.639,0.401,70%,16%
+RFE (top 200),49.0%,15.4%,200,0.248,0.446,72%,22%
+LASSO (non-zero coef),50.0%,13.4%,17,0.346,0.538,61%,68%
