@@ -75,7 +75,7 @@ python scripts/verify_core_numbers.py
 If you use this package, please cite both the manuscript and the archived release:
 
 > Feng Y, Wu R, Kong L, Liu G. A reusable confounder-aware metabolomics pipeline integrating STEM, age-residualized Random Forest and NMF subtyping. *Briefings in Bioinformatics* (under review).
-> Code/data archive (Zenodo, concept DOI, always points to the latest version): *DOI to be added after Zenodo archival*.
+> Code/data archive (Zenodo, concept DOI, always points to the latest version): [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23954816.svg)](https://doi.org/10.5281/zenodo.23954816)
 
 ## License
 
