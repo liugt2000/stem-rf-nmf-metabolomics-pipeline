@@ -1,0 +1,21 @@
+{
+  "all_features": {
+    "fold_mean": 0.4886,
+    "fold_sd": 0.1309,
+    "pooled": 0.4881
+  },
+  "anova_top50": {
+    "fold_mean": 0.5447,
+    "fold_sd": 0.1469,
+    "pooled": 0.5429
+  },
+  "paired": {
+    "mean_diff_pp": 5.61,
+    "sd_diff_pp": 13.04,
+    "t": 3.012,
+    "p_ttest": 0.0041,
+    "p_wilcoxon": 0.00297,
+    "n_folds_top50_better": 20,
+    "n_folds": 50
+  }
+}

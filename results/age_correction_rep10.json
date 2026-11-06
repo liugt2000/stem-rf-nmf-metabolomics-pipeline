@@ -1,0 +1,58 @@
+{
+  "Uncorrected": {
+    "fold_acc_mean": 0.6028,
+    "fold_acc_sd": 0.1278,
+    "pooled": 0.6024,
+    "kappa": 0.438,
+    "macro_f1": 0.561,
+    "per_class": {
+      "CG": 0.34,
+      "SCD": 0.5,
+      "MCI": 0.4,
+      "AD": 0.931
+    },
+    "n_features": 1966
+  },
+  "LinearRegression": {
+    "fold_acc_mean": 0.4886,
+    "fold_acc_sd": 0.1309,
+    "pooled": 0.4881,
+    "kappa": 0.26,
+    "macro_f1": 0.389,
+    "per_class": {
+      "CG": 0.06,
+      "SCD": 0.282,
+      "MCI": 0.504,
+      "AD": 0.779
+    },
+    "n_features": 1966
+  },
+  "ComBat": {
+    "fold_acc_mean": 0.3933,
+    "fold_acc_sd": 0.1487,
+    "pooled": 0.3929,
+    "kappa": 0.121,
+    "macro_f1": 0.288,
+    "per_class": {
+      "CG": 0.02,
+      "SCD": 0.164,
+      "MCI": 0.374,
+      "AD": 0.71
+    },
+    "n_features": 1966
+  },
+  "AgeBinning": {
+    "fold_acc_mean": 0.4106,
+    "fold_acc_sd": 0.1173,
+    "pooled": 0.4095,
+    "kappa": 0.143,
+    "macro_f1": 0.301,
+    "per_class": {
+      "CG": 0.02,
+      "SCD": 0.155,
+      "MCI": 0.435,
+      "AD": 0.717
+    },
+    "n_features": 1966
+  }
+}

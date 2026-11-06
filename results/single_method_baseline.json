@@ -1,0 +1,23 @@
+{
+  "all_features": {
+    "n_features_used": 1966,
+    "fold_acc_mean": 0.4886,
+    "fold_acc_sd": 0.1309,
+    "pooled": 0.4881,
+    "seconds": 79.8
+  },
+  "anova_top50": {
+    "n_features_used": 50,
+    "fold_acc_mean": 0.5447,
+    "fold_acc_sd": 0.1469,
+    "pooled": 0.5429,
+    "seconds": 72.3
+  },
+  "anova_top200": {
+    "n_features_used": 200,
+    "fold_acc_mean": 0.4689,
+    "fold_acc_sd": 0.1331,
+    "pooled": 0.469,
+    "seconds": 70.4
+  }
+}

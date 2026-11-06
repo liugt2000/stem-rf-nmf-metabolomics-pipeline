@@ -1,0 +1,241 @@
+{
+  "meta": {
+    "n_trees": 1000,
+    "cv": "5x10 RepeatedStratifiedKFold",
+    "quick": false
+  },
+  "configs": {
+    "full": {
+      "level_filter": "B(i)",
+      "residualize": true,
+      "n_features": 1966,
+      "fold_acc_mean": 0.48861111111111116,
+      "fold_acc_sd": 0.13093001853313252,
+      "accuracy_pooled": 0.4880952380952381,
+      "kappa": 0.2599270581485883,
+      "macro_f1": 0.3891165328104864,
+      "per_class_sensitivity": {
+        "CG": 0.06,
+        "SCD": 0.2818181818181818,
+        "MCI": 0.5043478260869565,
+        "AD": 0.7793103448275862
+      },
+      "top10_jaccard": 0.9272727272727274,
+      "n_folds": 50,
+      "top50": {
+        "B(ii)_n": 0,
+        "B(ii)_pct": 0.0
+      },
+      "nmf": {
+        "subtype_sizes": [
+          59,
+          25
+        ],
+        "age_mean_diff_years": -0.45,
+        "age_p_value": 0.841713759950303,
+        "disease_chi2_p": 0.11037079496056737
+      },
+      "five_fold_accuracy": 0.4642857142857143,
+      "confusion_matrix": [
+        [
+          3,
+          3,
+          6,
+          38
+        ],
+        [
+          0,
+          31,
+          37,
+          42
+        ],
+        [
+          0,
+          29,
+          58,
+          28
+        ],
+        [
+          0,
+          7,
+          25,
+          113
+        ]
+      ]
+    },
+    "no_resid": {
+      "level_filter": "B(i)",
+      "residualize": false,
+      "n_features": 1966,
+      "fold_acc_mean": 0.6027777777777777,
+      "fold_acc_sd": 0.12780796744808157,
+      "accuracy_pooled": 0.6023809523809524,
+      "kappa": 0.43759772280800224,
+      "macro_f1": 0.5614557801905508,
+      "per_class_sensitivity": {
+        "CG": 0.34,
+        "SCD": 0.5,
+        "MCI": 0.4,
+        "AD": 0.9310344827586207
+      },
+      "top10_jaccard": 0.890909090909091,
+      "n_folds": 50,
+      "top50": {
+        "B(ii)_n": 0,
+        "B(ii)_pct": 0.0
+      },
+      "nmf": {
+        "subtype_sizes": [
+          64,
+          20
+        ],
+        "age_mean_diff_years": -5.77,
+        "age_p_value": 0.014912552121224774,
+        "disease_chi2_p": 0.04944078085215378
+      },
+      "five_fold_accuracy": 0.5952380952380952,
+      "confusion_matrix": [
+        [
+          17,
+          21,
+          10,
+          2
+        ],
+        [
+          0,
+          55,
+          47,
+          8
+        ],
+        [
+          0,
+          44,
+          46,
+          25
+        ],
+        [
+          0,
+          2,
+          8,
+          135
+        ]
+      ]
+    },
+    "bi_ii_resid": {
+      "level_filter": "B(i)+B(ii)",
+      "residualize": true,
+      "n_features": 4357,
+      "fold_acc_mean": 0.49277777777777776,
+      "fold_acc_sd": 0.1215334125677806,
+      "accuracy_pooled": 0.4928571428571429,
+      "kappa": 0.2688189619942787,
+      "macro_f1": 0.41580944072889403,
+      "per_class_sensitivity": {
+        "CG": 0.14,
+        "SCD": 0.24545454545454545,
+        "MCI": 0.5130434782608696,
+        "AD": 0.7862068965517242
+      },
+      "top10_jaccard": 0.890909090909091,
+      "n_folds": 50,
+      "top50": {
+        "B(ii)_n": 22,
+        "B(ii)_pct": 44.0
+      },
+      "nmf": {
+        "subtype_sizes": [
+          60,
+          24
+        ],
+        "age_mean_diff_years": -1.3,
+        "age_p_value": 0.5672936494363915,
+        "disease_chi2_p": 0.9181175924179017
+      },
+      "five_fold_accuracy": 0.4523809523809524,
+      "confusion_matrix": [
+        [
+          7,
+          2,
+          8,
+          33
+        ],
+        [
+          0,
+          27,
+          41,
+          42
+        ],
+        [
+          0,
+          28,
+          59,
+          28
+        ],
+        [
+          0,
+          4,
+          27,
+          114
+        ]
+      ]
+    },
+    "bi_ii_raw": {
+      "level_filter": "B(i)+B(ii)",
+      "residualize": false,
+      "n_features": 4357,
+      "fold_acc_mean": 0.5886111111111112,
+      "fold_acc_sd": 0.14561200135384308,
+      "accuracy_pooled": 0.5880952380952381,
+      "kappa": 0.41771847577833876,
+      "macro_f1": 0.5499350168252902,
+      "per_class_sensitivity": {
+        "CG": 0.36,
+        "SCD": 0.4818181818181818,
+        "MCI": 0.3565217391304348,
+        "AD": 0.9310344827586207
+      },
+      "top10_jaccard": 0.8272727272727274,
+      "n_folds": 50,
+      "top50": {
+        "B(ii)_n": 21,
+        "B(ii)_pct": 42.0
+      },
+      "nmf": {
+        "subtype_sizes": [
+          57,
+          27
+        ],
+        "age_mean_diff_years": 3.49,
+        "age_p_value": 0.11000844375504196,
+        "disease_chi2_p": 0.4365507821842428
+      },
+      "five_fold_accuracy": 0.5833333333333334,
+      "confusion_matrix": [
+        [
+          18,
+          19,
+          12,
+          1
+        ],
+        [
+          1,
+          53,
+          47,
+          9
+        ],
+        [
+          0,
+          47,
+          41,
+          27
+        ],
+        [
+          0,
+          3,
+          7,
+          135
+        ]
+      ]
+    }
+  }
+}
